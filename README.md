@@ -2,9 +2,9 @@
 
 
 ### Requirement :
-    [Node JS](https://nodejs.org/en/)
-    2. [MongoDB](https://www.mongodb.com/)
-    3. [React Native](https://facebook.github.io/react-native/)
+    1. Node JS as server => https://nodejs.org/en/
+    2. MongoDB as databases => https://www.mongodb.com/
+    3. React Native as client => https://facebook.github.io/react-native/
     
 ### How to install :
 

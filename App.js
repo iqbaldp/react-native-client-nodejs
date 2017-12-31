@@ -46,7 +46,6 @@ constructor(props) {
       }).then((response) => response.json())
           .then((responseJson) => {
 
-            // Showing response message coming from server after inserting records.
             Alert.alert(responseJson);
 
           }).catch((error) => {
@@ -149,7 +148,7 @@ class ShowStudentListActivity extends Component {
              isLoading: false,
              dataSource: ds.cloneWithRows(responseJson),
            }, function() {
-             // In this block you can do something with new state.
+             
            });
          })
          .catch((error) => {
@@ -241,7 +240,6 @@ class EditStudentRecordActivity extends Component {
 
      componentDidMount(){
 
-      // Received Student Details Sent From Previous Activity and Set Into State.
       this.setState({ 
         _id : this.props.navigation.state.params._id,
         nama: this.props.navigation.state.params.nama,
@@ -258,7 +256,7 @@ class EditStudentRecordActivity extends Component {
 
     UpdateStudentRecord = () =>{
       
-            fetch('https://reactnativecode.000webhostapp.com/Student/UpdateStudentRecord.php', {
+            fetch('', {
             method: 'POST',
             headers: {
               'Accept': 'application/json',
@@ -293,7 +291,7 @@ class EditStudentRecordActivity extends Component {
 
     DeleteStudentRecord = () =>{
         
-          fetch('https://reactnativecode.000webhostapp.com/Student/DeleteStudentRecord.php', {
+          fetch('', {
           method: 'POST',
           headers: {
           'Accept': 'application/json',
@@ -308,7 +306,6 @@ class EditStudentRecordActivity extends Component {
           }).then((response) => response.json())
           .then((responseJson) => {
         
-            // Showing response message coming from server after inserting records.
             Alert.alert(responseJson);
         
           }).catch((error) => {

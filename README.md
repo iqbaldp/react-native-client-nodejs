@@ -12,5 +12,5 @@ Requirement {
 
 ## Screenshot on Android
 
-![alt text](https://imgur.com/a/zFLen)
-![alt text](https://imgur.com/a/brDfh)
+![alt text](https://i.imgur.com/1nA2t3O.jpg)
+![alt text](https://i.imgur.com/AQrGNcg.jpg)

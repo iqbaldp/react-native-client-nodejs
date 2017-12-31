@@ -2,9 +2,9 @@
 
 
 ### Requirement :
-    1. http://github.com - automatic!
-    1. MongoDB
-    1. React Native fresh init
+    1. [GitHub](http://github.com)
+    2. MongoDB
+    3. React Native fresh init
     
 ### How to install :
 

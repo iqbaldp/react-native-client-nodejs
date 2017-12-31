@@ -4,9 +4,6 @@ var app 		= express();
 var router 		= express.Router();
 var port 		= process.env.PORT || 3000;
 
-// DAFTAR ENDPOINT
-// localhost:3000/api/users    		GET POST
-// localhost:3000/api/users/:name 		GET PUT DELETE
 
 //setting database
 var mongoose = require('mongoose');
@@ -25,7 +22,7 @@ router.use(function (req, res, next) {
 app.use(bodyParser.urlencoded({ extended:true}));
 app.use(bodyParser.json());
 
-//isi router
+//routing
 router.get('/', function (req, res) {
 	res.json({message : "anda di home"});
 });
@@ -117,7 +114,7 @@ router.route('/users/:name').get(function (req, res) {
 		});
 });
 
-//api
+//endpoint
 app.use('/api',router);
 
 app.listen(port);

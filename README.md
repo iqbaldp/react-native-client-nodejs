@@ -2,7 +2,7 @@
 
 
 ### Requirement :
-    1. [Node JS](https://nodejs.org/en/)
+    [Node JS](https://nodejs.org/en/)
     2. [MongoDB](https://www.mongodb.com/)
     3. [React Native](https://facebook.github.io/react-native/)
     

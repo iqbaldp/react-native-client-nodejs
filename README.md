@@ -2,9 +2,9 @@
 
 
 ### Requirement :
-    1. [GitHub](http://github.com)
-    2. MongoDB
-    3. React Native fresh init
+    1. [Node JS](https://nodejs.org/en/)
+    2. [MongoDB](https://www.mongodb.com/)
+    3. [React Native](https://facebook.github.io/react-native/)
     
 ### How to install :
 
